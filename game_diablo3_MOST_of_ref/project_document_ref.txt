@@ -1,21 +1,4 @@
-﻿網頁頁面
------------------------架構
-故事
-	三代故事	五章
-		世界地图 連結
-			二代略提(NO)
-角色
-	七個職業	七角色
-
-遊戲模式
-
-基礎
-	
-進階 (javascript)
-	(要做)
-	三光檔位表 (計算) (javascript) ( 先檔位表列出 再給條件計算目前檔位 ) table (下拉是選單 ?) 嘿嘿順便幫我計算
-	
------------------------預估業面對應
+﻿進階 三光檔位表 (計算) (javascript) ( 先檔位表列出 再給條件計算目前檔位 ) table (下拉是選單 ?) //NO implement
 // -----------------// -----------------// -------------------------
 =====================================================================
 						內容參考 content Reference
@@ -29,22 +12,21 @@ http://iyazero.tw/Default.htm
 https://tw.diablo3.com/zh/game/
 巴哈: 帶著新手們一起玩D3
 https://forum.gamer.com.tw/C.php?bsn=21400&snA=359625&tnum=158
-diablo3 遊戲本身中的內容
-diablo3 遊戲本身中的內容
+diablo3 game inside content //diablo3 遊戲本身中的內容
 Diablo 2★Destruction's End Cinematic★[Original]Official Diablo II[D2 Cut Scene] Trailer
 https://youtu.be/ukb5d7Q21J4
-https://www.mobile01.com/topicdetail.php?f=401&t=2766673 暗黑1~2代劇情的懶人包
-https://tw.diablo3.com/zh/game/the-story-of-diablo/?page=1《暗黑破壞神》故事背景
+https://www.mobile01.com/topicdetail.php?f=401&t=2766673 暗黑1~2代劇情的懶人包 story of Diablo1 & 2
+https://tw.diablo3.com/zh/game/the-story-of-diablo/?page=1《暗黑破壞神》故事背景 story Official
 -----------------------
-story 的圖片來源 google 網路上各種找 凱恩之角 
+story of image ref  google search 凱恩之角 
 https://www.diablowiki.net/Main_Page diablowiki
 https://www.diablowiki.net/Storyline#The_Black_Soulstone
 -----------------------
-roles 的圖片來源 官網遊戲指南介紹
+roles 官網遊戲指南介紹
 內容凱恩之角 角色介紹http://d.163.com/html/occupations/d3char.html 左排分別的第一個
 see more 的連接分別為官網 的遊戲指南角色介紹
 -----------------------
-mode 的圖片來源 遊戲本身內截圖 logo 為google 影片圍官網youtube
+mode of image ref 遊戲本身內截圖 logo 為google 影片為官網youtube
 內文為官網解說挑重點(遊戲指南)
 -----------------------
 homepage title logo 參考官網F12 找到logo
@@ -117,6 +99,7 @@ https://stackoverflow.com/questions/1409649/how-to-change-the-height-of-a-br
 =====================================================================
 
 // 來不及解決
+
 // https://www.w3schools.com/howto/howto_html_include.asp
 // https://www.quanzhanketang.com/howto/howto_html_include.html
 // has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.
