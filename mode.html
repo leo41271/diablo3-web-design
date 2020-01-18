@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style/style-global.css" />
+    <link rel="stylesheet" href="./style/mode.css" />
+    <link rel="stylesheet" href="./style/dropwodn.css" />
+    <link rel="stylesheet" href="./style/global/accordion.css" />
+    <link
+      rel="shortcut icon"
+      href="https://p2.bahamut.com.tw/HOME/creationCover/52/0000341752_B.PNG"
+      type="image/PNG"
+    />
+    <title>diablo3-mode</title>
+  </head>
+
+  <body class="text-align-center">
+    <div class="nav-menu">
+      <div class="center text-align-center nav-space">
+        <label for="show-menu" class="show-menu">&#9776;</label>
+        <input type="checkbox" id="show-menu" role="button" />
+        <ul id="menu">
+          <li>
+            <a href="./story.html">故事</a>
+            <ul class="hidden">
+              <li><a href="./story.html#chapter1">第1章:新崔斯特姆</a></li>
+              <li><a href="./story.html#chapter2">第2章:卡爾蒂姆</a></li>
+              <li><a href="./story.html#chapter3">第3章:戍衛要塞</a></li>
+              <li><a href="./story.html#chapter4">第4章:至高天</a></li>
+              <li><a href="./story.html#chapter5">第5章:衛司馬屈</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./roles.html">角色</a>
+            <ul class="hidden">
+              <li><a href="./roles.html">野蠻人</a></li>
+              <li><a href="./roles.html">聖教軍</a></li>
+              <li><a href="./roles.html">武僧</a></li>
+              <li><a href="./roles.html">狩魔獵人</a></li>
+              <li><a href="./roles.html">秘術師</a></li>
+              <li><a href="./roles.html">巫醫</a></li>
+              <li><a href="./roles.html">死靈法師</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./mode.html">遊戲模式</a>
+            <ul class="hidden">
+              <li><a href="./mode.html#plot">劇情模式</a></li>
+              <li><a href="./mode.html#peril">冒險模式</a></li>
+              <li><a href="./mode.html#challenge">挑戰模式</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./basic.html">基礎</a>
+            <ul class="hidden">
+              <li><a href="./basic.html#basic1">基礎操作</a></li>
+              <li><a href="./basic.html#basic2">戰鬥與技能</a></li>
+              <li><a href="./basic.html#basic3">世界</a></li>
+              <li><a href="./basic.html#basic4">物件</a></li>
+              <li><a href="./basic.html#basic5">追隨者</a></li>
+              <li><a href="./basic.html#basic6">遊戲難度</a></li>
+              <li><a href="./basic.html#basic7">與好友一同遊戲</a></li>
+              <li><a href="./basic.html#basic8">賽季</a></li>
+            </ul>
+          </li>
+          <li><a href="http://bbs.d.163.com/">進階</a></li>
+          <li>
+            <a href="https://forum.gamer.com.tw/B.php?bsn=21400&subbsn=0"
+              >巴哈哈拉版</a
+            >
+          </li>
+          <li><a href="http://d.163.com/">凱恩之角</a></li>
+          <li><a href="./diablo3-homepage.html">首頁</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- https://tw.diablo3.com/zh/game/guide/gameplay/game-modes -->
+    <!-- 遊戲模式 懸賞任務 涅法雷姆秘境 挑戰秘境 -->
+    <h1>遊戲模式</h1>
+    <div class="segement-90 position-relative">
+      <div class="left-right  center">
+        <div id="" class="left  ">
+          <!-- plz look w3c sticky image -->
+          <!-- https://stackoverflow.com/questions/48437506/image-not-sticking-using-position-sticky -->
+          <img
+            class="sticky"
+            src="./images/mode/game-mode.png"
+            usemap="#mode_image"
+          />
+          <map name="mode_image">
+            <area
+              shape="rect"
+              coords="15,42,279,188"
+              href="#plot"
+              alt="mode_plot_pic"
+            />
+            <area
+              shape="rect"
+              coords="15,191,279,338"
+              href="#peril"
+              alt="mode_peril_pic"
+            />
+            <area
+              shape="rect"
+              coords="15,341,279,488"
+              href="#challenge"
+              alt="mode_challenge_pic"
+            />
+            <!-- 上面中文字那些給予連結 -->
+          </map>
+        </div>
+        <!-- <div class="left  test2"></div> -->
+        <!-- 原本position-fixed 半sticky -->
+        <div class="right ">
+          <button class="accordion" id="plot">劇情模式</button>
+          <div class="panel">
+            <ul>
+              <li><a href="./story.html#chapter1">第1章:新崔斯特瑞姆</a></li>
+              <li><a href="./story.html#chapter2">第2章:卡爾蒂姆</a></li>
+              <li><a href="./story.html#chapter3">第3章:戍衛要塞</a></li>
+              <li><a href="./story.html#chapter4">第4章:至高天</a></li>
+              <li><a href="./story.html#chapter5">第5章:衛司馬屈</a></li>
+            </ul>
+          </div>
+          <h2 id="peril">冒險模式</h2>
+
+          <p>當你擊敗劇情模式最後章節的頭目後，便立即開啟冒險模式。</p>
+          <h3>懸賞任務</h3>
+
+          <p>在冒險模式中，你能夠接下懸賞任務。</p>
+          <img src="./images/mode/box.png" alt="" />
+          <p>
+            完成懸賞任務後，玩家除了會獲得金幣和寶物之外，還會得到水晶般的血岩碎片。血岩碎片可用來跟城鎮裡的商人卡達拉購買赫拉迪姆寶藏和來歷不明的神祕古物。
+          </p>
+          <h3>涅法雷姆秘境</h3>
+          <p>
+            涅法雷姆秘境是另一片天地，有隨機產生的地形地貌，裡頭充滿無法預料的怪物。
+          </p>
+          <p>
+            擊敗涅法雷姆秘境中足夠的怪物數量便能召喚一位秘境守護者，這位對手具有隨機且強大的能力...擊敗它還能獲得豐富的寶藏。
+          </p>
+          <img src="./images/mode/stone.png" alt="" />
+          <p>
+            涅法雷姆石碑的啟動:選擇是要開啟涅法雷姆秘境或是宏偉秘境。
+          </p>
+          <img src="./images/mode/small.png" alt="" />
+          <img src="./images/mode/big.png" alt="" />
+          <h2 id="challenge">挑戰秘境</h2>
+          <a href="https://youtu.be/tZvPySDynck">
+            <img
+              src="https://i.ytimg.com/vi/tZvPySDynck/maxresdefault.jpg"
+              width="375px"
+              alt="challenge_rigt"
+          /></a>
+          <p>
+            進行挑戰秘境模式時，你會化身為另一名涅法雷姆，與其他人面對同樣的威脅與處境。你必須戰勝一切才能完成挑戰。開始挑戰秘境模式時你會來到挑戰區，在那裡你可以使用靈魂之鏡確認主動與被動技能、魔方能力與身上的裝備。那裡也有不會還手的幽靈可以測試新技能，因此儘管花點時間在那裡試試身手，確定你已經準備就緒。
+          </p>
+          <p>
+            如果你成功完成挑戰，你將會收到挑戰秘境寶箱，裡頭有製作材料、寶石、血岩碎片與傳奇物品等各種有用的東西。如果完成挑戰的速度夠快，你還有機會在天梯榜上留名。
+          </p>
+
+          <script src="./js/global/accordion.js"></script>
+        </div>
+      </div>
+    </div>
+    <!-- copy -->
+    <div class="copyright center text-align-center segement-90">
+      <hr />
+      &copy; 2019 阿森 resume
+    </div>
+  </body>
+</html>

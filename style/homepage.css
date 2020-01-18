@@ -1,0 +1,205 @@
+/* topbar */
+.topbar {
+  line-height: 40px;
+  font-size: 12px;
+}
+.topbar ul {
+  padding: 5px;
+}
+.topbar li {
+  /* 在同一行 */
+  display: inline-block;
+  /* float: left; can do too but not same */
+  padding: 10px;
+}
+.topbar a {
+  padding: 5px;
+}
+
+/* main-topic use */
+.main-topic {
+  /* https://www.w3schools.com/css/css3_shadows.asp */
+  color: black;
+  text-shadow: -2px 0 yellowgreen, 0 2px yellowgreen, 2px 0 white, 0 -2px white;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0px;
+  background-image: url(https://media0.giphy.com/media/w58GbgWovn7Ww/giphy.gif);
+  background-position: center;
+  /* 背景再看看調整 */
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
+
+/* nav-menu this is old version nav with no dropdown */
+/* no use  width: ??%; */
+/* .nav-menu {
+  font-size: 24px;
+  height: 42px;
+}
+.nav-menu ul {
+  text-align: center;
+  min-width: 1275px;
+}
+.nav-menu li {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  min-width: 150px;
+  border: solid 1px black;
+} */
+
+.segement-90 {
+  width: 90%;
+}
+.segement-95 {
+  width: 95%;
+}
+.intro {
+  width: 1200px;
+}
+/* div in one line */
+/* https://stackoverflow.com/questions/18262300/two-inline-block-elements-each-50-wide-do-not-fit-side-by-side-in-a-single-ro */
+
+.left-intro {
+  width: 800px;
+  display: inline-block;
+
+  /* http://sf.co.ua/id23772 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("http://sf.co.ua/2012/wallpaper-1891284.jpg");
+  background-position: center;
+  background-size: cover;
+  /* Declaring all CSS background properties in one line — especially background-size */
+  /* https://stackoverflow.com/questions/31558245/declaring-all-css-background-properties-in-one-line-especially-background-size */
+}
+.left-intro h2 {
+  font-weight: 900;
+}
+
+.right-intro {
+  width: 300px;
+  display: inline-block;
+  /* malthael */
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://vignette.wikia.nocookie.net/villains/images/3/3d/Malthael1.jpg/revision/latest?cb=20140406210019");
+}
+/*  */
+.story-intro {
+  width: 650px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.story-intro ul {
+  /* margin: 10px auto; */
+}
+.story-intro ul hr {
+  /* Changing the color of an hr element */
+  /* https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
+  display: block;
+  height: 1px;
+
+  border-top: 1px solid #a99877;
+  margin: 1em 0;
+  padding: 0;
+}
+.story-intro ul li {
+  margin: 10px auto;
+  /* border: 1px solid black; */
+}
+.story-intro-chapter {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 640px;
+}
+.story-intro-left {
+  /* 距離旁邊標題 */
+  margin-top: 10%;
+  width: 200px;
+  display: inline-block;
+}
+.story-intro-left img {
+  margin: 10px auto;
+  width: 175px;
+}
+.story-intro-right {
+  background-color: rgba(20, 20, 20, 0.7);
+  padding: 0 15px;
+  width: 400px;
+  display: inline-block;
+}
+.story-intro-right p {
+  text-align: left;
+}
+/*  */
+.right-part-title {
+  /*  */
+}
+.right-part-title h3 {
+  /* text-align: left; */
+  /* margin-left: 20%; */
+  /* margin-left: 70px; */
+}
+.right-part-title small {
+  /* https://stackoverflow.com/questions/43434877/i-cant-change-the-width-of-a-div-in-css why */
+  /* text-align: right; why ??????? */
+  /* margin-left: 10px; */
+  /* padding-left: 10px; */
+  /* font-size: 25px; */
+  /* looks <small> can't change ?in css with some property */
+}
+.right-part-content {
+  /*  */
+  width: 250px;
+}
+.right-part-content ul {
+  /*  */
+}
+.right-part-content li {
+  margin-left: 50px;
+  /* text-align: left; */
+  letter-spacing: 8px;
+  /* wordspacing letterspacing line-height */
+}
+.small-change {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* left part detail */
+/* background image Conversion https://codepen.io/jdsteinbach/pen/LzLegx */
+.roles {
+  transition: all 300ms;
+}
+.roles:hover {
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://i.imgur.com/apZnoTW.jpg");
+  border: 1px black solid;
+}
+
+.list-image-no {
+  list-style-image: none;
+  /* 改不了? */
+}
+.game-mode {
+  /*  */
+  transition: all 300ms;
+}
+.game-mode:hover {
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://media.altchar.com/prod/images/940_530/gm-f1edc187-1890-403c-8a89-0373322fbd2e-tgoblinart.png");
+  border: 1px black solid;
+}
+
+.basic-rule {
+  transition: all 300ms;
+}
+.basic-rule:hover {
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/mode/urshi.jpg");
+  border: 1px black solid;
+}

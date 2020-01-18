@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style/style-global.css" />
+    <link rel="stylesheet" href="./style/dropwodn.css" />
+    <link rel="stylesheet" href="./style/roles.css" />
+    <link rel="stylesheet" href="./style/roles/Modal_Image.css" />
+    <link rel="stylesheet" href="./style/roles/piechart.css" />
+    <!-- <link rel="stylesheet" href="./style/roles-change.css" /> effect is too bad效果太差-->
+    <link
+      rel="shortcut icon"
+      href="https://p2.bahamut.com.tw/HOME/creationCover/52/0000341752_B.PNG"
+      type="image/PNG"
+    />
+    <title>diablo3-roles</title>
+  </head>
+
+  <body class="">
+    <div class="nav-menu position-absolute">
+      <div class="center text-align-center nav-space">
+        <label for="show-menu" class="show-menu">&#9776;</label>
+        <input type="checkbox" id="show-menu" role="button" />
+        <ul id="menu">
+          <li>
+            <a href="./story.html">故事</a>
+            <ul class="hidden">
+              <li><a href="./story.html#chapter1">第1章:新崔斯特姆</a></li>
+              <li><a href="./story.html#chapter2">第2章:卡爾蒂姆</a></li>
+              <li><a href="./story.html#chapter3">第3章:戍衛要塞</a></li>
+              <li><a href="./story.html#chapter4">第4章:至高天</a></li>
+              <li><a href="./story.html#chapter5">第5章:衛司馬屈</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./roles.html">角色</a>
+            <ul class="hidden">
+              <li><a href="./roles.html">野蠻人</a></li>
+              <li><a href="./roles.html">聖教軍</a></li>
+              <li><a href="./roles.html">武僧</a></li>
+              <li><a href="./roles.html">狩魔獵人</a></li>
+              <li><a href="./roles.html">秘術師</a></li>
+              <li><a href="./roles.html">巫醫</a></li>
+              <li><a href="./roles.html">死靈法師</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./mode.html">遊戲模式</a>
+            <ul class="hidden">
+              <li><a href="./mode.html#plot">劇情模式</a></li>
+              <li><a href="./mode.html#peril">冒險模式</a></li>
+              <li><a href="./mode.html#challenge">挑戰模式</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./basic.html">基礎</a>
+            <ul class="hidden">
+              <li><a href="./basic.html#basic1">基礎操作</a></li>
+              <li><a href="./basic.html#basic2">戰鬥與技能</a></li>
+              <li><a href="./basic.html#basic3">世界</a></li>
+              <li><a href="./basic.html#basic4">物件</a></li>
+              <li><a href="./basic.html#basic5">追隨者</a></li>
+              <li><a href="./basic.html#basic6">遊戲難度</a></li>
+              <li><a href="./basic.html#basic7">與好友一同遊戲</a></li>
+              <li><a href="./basic.html#basic8">賽季</a></li>
+            </ul>
+          </li>
+          <li><a href="http://bbs.d.163.com/">進階</a></li>
+          <li>
+            <a href="https://forum.gamer.com.tw/B.php?bsn=21400&subbsn=0"
+              >巴哈哈拉版</a
+            >
+          </li>
+          <li><a href="http://d.163.com/">凱恩之角</a></li>
+          <li><a href="./diablo3-homepage.html">首頁</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- https://tw.diablo3.com/zh/game/guide/get-started/choosing-your-class -->
+    <!-- http://d.163.com/html/occupations/d3char.html 職業圖 內文凱恩-->
+    <h2 class="text-align-center">職業介紹</h2>
+    <div class="segement-90 position-relative center test2">
+      <div class="text-align-center test2 ">
+        <div id="piechart" class="piechart  text-align-center"></div>
+      </div>
+      <script
+        type="text/javascript"
+        src="https://www.gstatic.com/charts/loader.js"
+      ></script>
+      <script src="./js/roles/Google_Charts.js"></script>
+      <br />
+      <div class="roles-image text-align-center ">
+        <ul>
+          <li id="role-barb">
+            <img src="./images/role/barb-male.jpg" alt="野蠻人" /><br /><small
+              >野蠻人</small
+            >
+          </li>
+          <li id="role-sader">
+            <img src="./images/role/sader-male.jpg" alt="聖教軍" /><br /><small
+              >聖教軍</small
+            >
+          </li>
+          <li id="role-monk">
+            <img src="./images/role/monk-male.jpg" alt="武僧" /><br /><small
+              >武僧</small
+            >
+          </li>
+          <li id="role-dh">
+            <img src="./images/role/DH-female.jpg" alt="狩魔獵人" /><br /><small
+              >狩魔獵人</small
+            >
+          </li>
+          <li id="role-wd">
+            <img src="./images/role/WD-male.jpg" alt="巫醫" /><br /><small
+              >巫醫</small
+            >
+          </li>
+          <li id="role-wizard">
+            <img
+              src="./images/role/wizard-female.jpg"
+              alt="秘術師"
+            /><br /><small>秘術師</small>
+          </li>
+          <li id="role-necro">
+            <img
+              src="./images/role/necro-femalejpg.jpg"
+              alt="死靈法師"
+            /><br /><small>死靈法師</small>
+          </li>
+        </ul>
+      </div>
+      <div class="test2 back-image-role center">
+        <div class="segement-90 center test role-intro">
+          <!-- https://img.4gamers.com.tw/ckfinder/images/Zizi/Blizzard/News/180223-D3%20(4).png -->
+          <div class="role-intro-square  center text-align-center test">
+            <div class="left test float-left">
+              <img id="myImg" src="./images/role/barb-male.jpg" alt="野蠻人" />
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01" />
+                <div id="caption"></div>
+              </div>
+              <script src="./js/roles/Modal_Images.js"></script>
+            </div>
+            <div class="right test2 float-right">
+              <!-- h2 75px height -->
+              <h2>野蠻人</h2>
+              <div class="right-content">
+                <ul class="list-image text-align-left">
+                  <li id="right-content-li1">
+                    野蛮人是从来不惧怕近身战的野蛮的流浪者。强大的撼地践踏、跳跃攻击和双持横斩让他们的敌人还没挪步就被斩杀成碎块，或让试图临阵脱逃者被顺势砍翻在地。
+                  </li>
+                  <li id="right-content-li2">
+                    感谢他们强壮的身体，尽管他们都是用沉重而巨大的武器，野蛮人却可以在近战中通过武器和距离支配一切。野蛮人对战争的威胁一点也不陌生，他们经常要面对数个敌人，给予或得到无数伤口，这比他们试图追杀一个目标要频繁得多。
+                  </li>
+                  <li id="right-content-li3">
+                    野蛮人的攻击主要是以近战为主。他们的武器挥动速度极快，并可以瞬间削弱敌人的耐力，而他们使用更缓慢却更强大的震地攻击时，足以撼动千军万马并击破强敌厚重的铠甲。
+                  </li>
+                </ul>
+                <div class="text-align-right">
+                  <a
+                    id="right-content-a"
+                    href="https://tw.diablo3.com/zh/class/barbarian/"
+                    >see more...</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright center text-align-center segement-90">
+      <hr />
+      &copy; 2019 阿森 resume
+    </div>
+    <script src="./js/roles/roles-change.js" charset="utf-8"></script>
+  </body>
+</html>

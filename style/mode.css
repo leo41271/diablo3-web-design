@@ -1,0 +1,47 @@
+body {
+  min-width: 900px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/diablo3_logo.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 110% 90%;
+  /* https://www.w3schools.com/cssref/pr_background-position.asp */
+  background-attachment: fixed;
+}
+.segement-90 {
+  width: 90%;
+}
+.left-right {
+  width: 800px;
+}
+.left {
+  width: 350px;
+  /* display: inline-block; 這個無法stiky*/
+  /* height 必須 */
+  height: 1830px;
+  float: left;
+  transition: all 600ms;
+}
+.left img {
+  /* create white glow around image */
+  box-shadow: 0px 0px 45px red;
+}
+.left area:hover {
+}
+.right {
+  width: 400px;
+  display: inline-block;
+}
+.position-fixed {
+  /*  */
+}
+
+.sticky {
+  /* Position: Sticky; not working for an image */
+  /* https://stackoverflow.com/questions/51085501/position-sticky-not-working-for-an-image */
+  /* position: -webkit-sticky; Safari */
+  position: sticky;
+  top: 50px;
+  /* top: 10%;  */
+  /* %會讓部分模糊 */
+}

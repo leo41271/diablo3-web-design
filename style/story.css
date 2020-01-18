@@ -1,0 +1,95 @@
+.segement-90 {
+  width: 90%;
+}
+.story-directory-chapter {
+  width: 1100px;
+}
+.story-directory {
+  line-height: 25px;
+  /* width: 20%; */
+  width: 250px;
+  display: inline-block;
+  height: 190px;
+}
+.story-directory ul {
+  display: inline-block;
+  width: 200px;
+}
+.chapter {
+  /* width: 75%; */
+  width: 750px;
+  display: inline-block;
+}
+img {
+  max-width: 600px;
+}
+.chapter {
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.chapter-content-backcolor {
+  /* CSS opacity only to background color, not the text on it? [duplicate] */
+  /* https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it */
+  background-color: rgba(24, 24, 24, 0.9);
+  /* 不知道? 加不了 */
+}
+ul {
+  /* margin-bottom: 250px; */
+}
+ul li p {
+  max-width: 400px;
+  margin: 20px auto;
+  line-height: normal;
+}
+p {
+  /* max-width: 600px; */
+}
+.div-back1 {
+  /* ransparent Background Images */
+  /* https://css-tricks.com/snippets/css/transparent-background-images/ */
+  /* Transparent Background Images in div */
+  /* https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div */
+  background-image: url("https://wiki.d.163.com/images/1/11/Tristram-cathedral-cinematic1.jpg");
+  margin-bottom: 25px;
+  /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://wiki.d.163.com/images/1/11/Tristram-cathedral-cinematic1.jpg"); */
+}
+.div-back2 {
+  background-image: url("http://www.diablo3-levelingguide.com/wp-content/uploads/2012/02/CaldeumConcept_01.jpg");
+  margin-bottom: 25px; /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("http://www.diablo3-levelingguide.com/wp-content/uploads/2012/02/CaldeumConcept_01.jpg"); */
+}
+.div-back3 {
+  background-image: url("http://media.gamingexcellence.com/screenshots/diablo-3/21885.jpg");
+  margin-bottom: 25px; /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("http://media.gamingexcellence.com/screenshots/diablo-3/21885.jpg"); */
+}
+.div-back4 {
+  background-image: url("https://vignette.wikia.nocookie.net/diablo3/images/1/13/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E8%87%B3%E9%AB%98%E5%A4%A9.jpg/revision/latest?cb=20130323022631&path-prefix=zh");
+  margin-bottom: 25px; /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://vignette.wikia.nocookie.net/diablo3/images/1/13/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E8%87%B3%E9%AB%98%E5%A4%A9.jpg/revision/latest?cb=20130323022631&path-prefix=zh"); */
+}
+.div-back5 {
+  background-image: url("https://vignette.wikia.nocookie.net/diablo/images/5/58/Westmarch-City.jpg/revision/latest?cb=20130912022029");
+  margin-bottom: 25px; /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://vignette.wikia.nocookie.net/diablo/images/5/58/Westmarch-City.jpg/revision/latest?cb=20130912022029"); */
+}
+
+.sticky {
+  /* Position: Sticky; not working for an image */
+  /* https://stackoverflow.com/questions/51085501/position-sticky-not-working-for-an-image */
+  /* position: -webkit-sticky; Safari */
+  position: sticky;
+  top: 100px;
+}
+.Vertical_Line {
+  border-right: 2px solid #748e3d;
+  border-left: 2px solid #748e3d;
+  height: 100%;
+}
+.Side_Navigation_Buttons li a:hover {
+  margin-left: 30px;
+  border-bottom: solid 1px #bf642f;
+}

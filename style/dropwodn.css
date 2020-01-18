@@ -1,0 +1,123 @@
+/*Strip the ul of padding and list styling*/
+.nav-menu {
+  margin: 10px auto;
+  width: 1200px;
+  height: 60px;
+}
+.nav-space {
+  width: 1200px;
+  height: 60px;
+}
+.nav-space ul {
+  min-width: 1200px;
+}
+.nav-space ul li {
+  font-size: 24px;
+  width: 145px;
+  min-width: 145px;
+  max-width: 150px;
+}
+.nav-space ul li ul li {
+  width: auto;
+  font-size: 14px;
+}
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 100;
+  /* CSS dropdown nav causing html content to move */
+  /* https://stackoverflow.com/questions/13212361/css-dropdown-nav-causing-html-content-to-move */
+}
+/*Create a horizontal list with spacing*/
+.nav-menu li {
+  display: inline-block;
+  /* float: left; */
+  margin-right: 1px;
+}
+/*Style for menu links*/
+.nav-menu li a {
+  display: block;
+  min-width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*Hover state for top level links*/
+.nav-menu li:hover a {
+  background-color: rgba(24, 24, 24, 1);
+}
+/*Style for dropdown links*/
+.nav-menu li:hover ul a {
+  background: #999;
+  color: #2f3036;
+  height: 40px;
+  line-height: 40px;
+}
+/*Hover state for dropdown links*/
+.nav-menu li:hover ul a:hover {
+  background-color: rgba(24, 24, 24, 0.5);
+  color: #fff;
+}
+/*Hide dropdown links until they are needed 隱藏 次目錄 */
+.nav-menu li ul {
+  display: none;
+}
+/*Make dropdown links vertical*/
+.nav-menu li ul li {
+  display: block;
+  float: none;
+}
+/*Prevent text wrapping*/
+.nav-menu li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+.nav-menu ul li a:hover + .hidden,
+.hidden:hover {
+  display: block;
+}
+
+/* RWD in my project is not support to use*/
+/*Style 'show menu' label button and hide it by default*/
+.nav-menu .show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #19c589;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+/*Hide checkbox*/
+input[type="checkbox"] {
+  display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type="checkbox"]:checked ~ #menu {
+  display: block;
+}
+/*Responsive Styles 10px --> old 760px not let web change 保留RWD */
+@media screen and (max-width: 10px) {
+  /*Make dropdown links appear inline*/
+  ul {
+    position: static;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  li {
+    margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  ul li,
+  li a {
+    width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display: block;
+  }
+}

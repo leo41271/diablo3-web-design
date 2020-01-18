@@ -1,0 +1,56 @@
+.basic-back {
+  /* black stone wallpaper */
+  /* https://i.pinimg.com/originals/7a/fb/f7/7afbf7ca0df8f31137c8dc6979df34ac.jpg */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://i.pinimg.com/originals/7a/fb/f7/7afbf7ca0df8f31137c8dc6979df34ac.jpg");
+  background-position: center;
+  background-size: cover;
+}
+table {
+  margin: 0 auto;
+}
+table td img {
+  width: 300px;
+  height: 200px;
+}
+
+table tr td ul {
+}
+table tr td ul li {
+  /* display: table-cell; */
+  /* 上下對齊做不到?不知 vertical justify 替代方案line-height*/
+  line-height: 25px;
+  /* list-style-image: url(https://tw.diablo3.com/static/images/icons/bullet.gif); */
+  /* 解法找不到 */
+}
+table tr td ul li a {
+  text-align: left;
+  color: brown;
+}
+td {
+  /* width: 30%; */
+  min-width: 600px;
+  /* max-width: 700px; */
+  border: solid 3px #7979d4;
+  /* margin: 5px; */
+}
+
+.left {
+  width: 310px;
+  display: inline-block;
+}
+.right {
+  width: 250px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  /* margin-top: 20px; */
+  float: right;
+  /* top: -100px; */
+  display: inline-block;
+}
+
+.title {
+  font-size: 16px;
+}

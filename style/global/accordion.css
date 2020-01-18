@@ -1,0 +1,42 @@
+.accordion {
+  background-color: #000000;
+  color: #e52817;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 25px;
+}
+/* accordion -> h2 */
+.active,
+.accordion:hover {
+  background-color: #111;
+}
+
+.accordion:after {
+  /* display: inline-block; */
+  content: "";
+  /* content: "\002B"; */
+  /* color: #777; */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+/* +號顯示同一行 */
+/* https://stackoverflow.com/questions/37648975/keep-after-element-on-same-line/37649151 */
+.active:after {
+  /* content: "\2212"; */
+  content: "";
+}
+
+.panel {
+  /* padding: 0 18px; */
+  /* background-color: white; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

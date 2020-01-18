@@ -1,0 +1,7 @@
+.piechart {
+  /* Center Aligning the Google charts */
+  /* https://stackoverflow.com/questions/11006096/center-aligning-the-google-charts */
+  display: inline-block;
+  margin: 0 auto;
+  /* background-color: black; */
+}

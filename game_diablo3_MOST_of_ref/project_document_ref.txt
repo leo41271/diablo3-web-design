@@ -1,0 +1,181 @@
+﻿網頁頁面
+-----------------------架構
+故事
+	三代故事	五章
+		世界地图 連結
+			二代略提(NO)
+角色
+	七個職業	七角色
+
+遊戲模式
+
+基礎
+	
+進階 (javascript)
+	(要做)
+	三光檔位表 (計算) (javascript) ( 先檔位表列出 再給條件計算目前檔位 ) table (下拉是選單 ?) 嘿嘿順便幫我計算
+	
+-----------------------預估業面對應
+// -----------------// -----------------// -------------------------
+=====================================================================
+						內容參考 content Reference
+// -----------------// -----------------// -------------------------
+=====================================================================
+凱恩之角
+http://d.163.com/db/cn
+易牙居
+http://iyazero.tw/Default.htm
+官網 遊戲指南
+https://tw.diablo3.com/zh/game/
+巴哈: 帶著新手們一起玩D3
+https://forum.gamer.com.tw/C.php?bsn=21400&snA=359625&tnum=158
+diablo3 遊戲本身中的內容
+diablo3 遊戲本身中的內容
+Diablo 2★Destruction's End Cinematic★[Original]Official Diablo II[D2 Cut Scene] Trailer
+https://youtu.be/ukb5d7Q21J4
+https://www.mobile01.com/topicdetail.php?f=401&t=2766673 暗黑1~2代劇情的懶人包
+https://tw.diablo3.com/zh/game/the-story-of-diablo/?page=1《暗黑破壞神》故事背景
+-----------------------
+story 的圖片來源 google 網路上各種找 凱恩之角 
+https://www.diablowiki.net/Main_Page diablowiki
+https://www.diablowiki.net/Storyline#The_Black_Soulstone
+-----------------------
+roles 的圖片來源 官網遊戲指南介紹
+內容凱恩之角 角色介紹http://d.163.com/html/occupations/d3char.html 左排分別的第一個
+see more 的連接分別為官網 的遊戲指南角色介紹
+-----------------------
+mode 的圖片來源 遊戲本身內截圖 logo 為google 影片圍官網youtube
+內文為官網解說挑重點(遊戲指南)
+-----------------------
+homepage title logo 參考官網F12 找到logo
+gif diablo3 為google 找
+各章節的內容概述來自:
+DIABLO III PLOT SUMMARY AND ANALYSIS 被吃掉了...
+https://us.battle.net/forums/en/d3/topic/5271784504 (因為可能暴雪的內部論壇有位置移動SO 真的不建了)
+而第五章的則是來自 diablowiki https://diablo.fandom.com/wiki/Act_V_(Diablo_III)
+頭像貼圖來自凱恩 分別的背景圖來自google hover後也是 (基礎的則為官網 艾希 遊戲指南)
+music來自 Video Game Music https://downloads.khinsider.com/diablo 
+-----------------------
+basic 圖片 多來自官網 與凱恩之角 好友同遊為遊戲難截圖 戰鬥技能 google隨便找
+內容參考 官網 遊戲指南 中的 基礎中的 比較重要的來做為內容
+-----------------------
+// -----------------// -----------------// -------------------------
+=====================================================================
+						css 問題 與連結 運用技巧 所遇問題 等 css Reference
+// -----------------// -----------------// -------------------------
+=====================================================================
+How to put table in the center of the page using CSS?
+https://stackoverflow.com/questions/9402856/how-to-put-table-in-the-center-of-the-page-using-css
+How do you get the footer to stay at the bottom of a Web page?
+https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page?noredirect=1&lq=1
+plz look w3c sticky image
+https://stackoverflow.com/questions/48437506/image-not-sticking-using-position-sticky
+Position: Sticky; not working for an image 
+https://stackoverflow.com/questions/51085501/position-sticky-not-working-for-an-image 
+div in one line 
+https://stackoverflow.com/questions/18262300/two-inline-block-elements-each-50-wide-do-not-fit-side-by-side-in-a-single-ro 
+CSS opacity only to background color, not the text on it? [duplicate] 
+https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it 
+ransparent Background Images 
+https://css-tricks.com/snippets/css/transparent-background-images/ 
+Transparent Background Images in div 
+https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div 
+CSS transition-timing-function Property 
+https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp 
+CSS Reference 
+https://www.w3schools.com/cssref/ 
+CSS Selector Reference 
+https://www.w3schools.com/cssref/css_selectors.asp 
+CSS Functions Reference 
+https://www.w3schools.com/cssref/css_functions.asp 
+https://www.w3schools.com/css/css3_shadows.asp 
+https://www.w3schools.com/cssref/pr_background-position.asp 
+Declaring all CSS background properties in one line — especially background-size 
+https://stackoverflow.com/questions/31558245/declaring-all-css-background-properties-in-one-line-especially-background-size 
+Changing the color of an hr element 
+https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element 
+https://stackoverflow.com/questions/43434877/i-cant-change-the-width-of-a-div-in-css why 
+CSS dropdown nav causing html content to move 
+https://stackoverflow.com/questions/13212361/css-dropdown-nav-causing-html-content-to-move 	
++號顯示同一行 
+https://stackoverflow.com/questions/37648975/keep-after-element-on-same-line/37649151 
+Center Aligning the Google charts 
+https://stackoverflow.com/questions/11006096/center-aligning-the-google-charts 
+HTML Entities 空白鍵
+https://www.w3schools.com/html/html_entities.asp 
+ransparent Background Images 
+https://css-tricks.com/snippets/css/transparent-background-images/ 
+how to no padding or margin 
+https://stackoverflow.com/questions/9620594/removing-ul-indentation-with-css 
+br setting
+https://stackoverflow.com/questions/1409649/how-to-change-the-height-of-a-br
+
+// -----------------// -----------------// -------------------------
+=====================================================================
+						js 問題 js problem
+// -----------------// -----------------// -------------------------
+=====================================================================
+
+// 來不及解決
+// https://www.w3schools.com/howto/howto_html_include.asp
+// https://www.quanzhanketang.com/howto/howto_html_include.html
+// has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.
+// https://blog.csdn.net/qq_26580757/article/details/78671716
+// https://developer.chrome.com/extensions/xhr
+// How to get a dom element in a new window?
+// https://stackoverflow.com/questions/15880468/how-to-get-a-dom-element-in-a-new-window
+// Window open() Method
+// https://www.w3schools.com/jsref/met_win_open.asp
+// document.getElementById from another page? 這個很不錯 但還不到具體我要的
+// http://www.dynamicdrive.com/forums/showthread.php?67448-document-getElementById-from-another-page
+// https://stackoverflow.com/questions/982717/how-do-i-get-the-entire-pages-html-with-jquery
+// https://stackoverflow.com/questions/12899047/how-to-use-javascript-to-access-another-pages-elements
+// https://stackoverflow.com/questions/7567181/jquery-get-different-page-elements
+// -----------------// -----------------// -------------------------
+=====================================================================
+
+// plz skip this line 這行沒事個人紀錄 // 13 下拉是選單 // 8 一些相對基礎比較 進階的操作 // 16 media // 15 // chapter 8 的 template 用法將會棄用沒有特別省力 但php的用法include 是不錯的但是我沒有接觸這裡php後端
+// -----------------// -----------------// -------------------------
+=====================================================================
+						效果用法 javascript 與連結 js effect and link
+// -----------------// -----------------// -------------------------
+=====================================================================
+分別的js 大多有對應得css 效果
+accordion 手風琴展開
+Draggable_HTML_Element 可移動式div 
+loader 載入畫面
+Slide_Down_a_Bar_on_Scroll 下滑式 顯示選單
+w3-include-HTML (白話 模板 但有遇有policy 問題時間來不及)
+global 表示其他網頁也可以用這個功能只是我沒加
+google chart 表格
+Modal_Images 圖片放大
+roles-change 點選問 顯示對應的內容 (未全部完成 解法找太久 (框架相對很容易做到? jquery 不熟也許可以?? ))
+Vertical_scroll_indicator 進度顯示棒
+淡化圖片
+背景透明
+清單顯示圖片
+不分功能 自己寫的比較沒有使用一些直接加入的套件 OR Example
+// -----------------// -----------------// -------------------------
+=====================================================================
+// How TO - Dropdown Navbar 
+// https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp 
+// dropdown navbar codepen 
+// https://codepen.io/arichoi/pen/VXGdyZ 
+// 各種小功能在地14章 三光計算 javascript 時間上趕不出
+// w3c how to
+// back to top js  animate
+// https://www.w3schools.com/howto/default.asp good good good many of ref come form here
+
+// audio player 時間來不及 not implement
+// https://codepen.io/majordomoers/pen/XWJWdmv
+// roles change js (codepen) 這背我棄用了 因為感覺對我的網頁部會那麼好看 有已經改好了 no use
+// https://codepen.io/ArghodeepPaul/pen/yLyXLEB
+// Vertical_scroll_indicator
+// https://codepen.io/paulobrien/pen/JWdoXm
+// -----------------// -----------------// -------------------------
+=====================================================================
+// How to Push Code to Github
+// https://youtu.be/wrb7Gge9yoE
+(框架)
+
+
